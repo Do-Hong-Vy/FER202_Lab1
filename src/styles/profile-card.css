@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", sans-serif;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  border-inline: none;
+  display: block;
+  min-height: 100vh;
+  text-align: left;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 16px 40px;
+}
+
+.card {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.avatar-area {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #e2e8f0;
+  display: block;
+}
+
+.online-badge {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 20px;
+  color: white;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.online-badge.online {
+  background-color: #22c55e;
+}
+
+.online-badge.offline {
+  background-color: #94a3b8;
+}
+
+.header-info {
+  flex: 1;
+  padding-top: 6px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 3px 0;
+  line-height: 1.2;
+}
+
+.card-label {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.student-id-text {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-heading {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.info-description {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  font-style: normal;
+}
+
+.info-row {
+  font-size: 14px;
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
+
+.info-row strong {
+  font-weight: 700;
+}
+
+.hobbies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hobby-tag {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 14px;
+  border-radius: 20px;
+  border: 1px solid;
+  cursor: default;
+}
+
+.status-box {
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 14px;
+  border: 1px solid;
+  line-height: 1.5;
+}
+
+.status-box.status-online {
+  background-color: #dcfce7;
+  border-color: #86efac;
+  color: #166534;
+}
+
+.status-box.status-offline {
+  background-color: #f1f5f9;
+  border-color: #cbd5e1;
+  color: #475569;
+}
+
+.status-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-switch {
+  padding: 9px 22px;
+  border-radius: 8px;
+  border: none;
+  background-color: #06b6d4;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.btn-switch:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+.btn-darkmode {
+  padding: 9px 18px;
+  border-radius: 8px;
+  border: 1px solid;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-darkmode:hover {
+  opacity: 0.88;
+}
+
+.like-section {
+  border-radius: 12px;
+  padding: 22px 20px;
+  text-align: center;
+}
+
+.like-label {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.like-number {
+  font-size: 44px;
+  font-weight: 700;
+  color: #b01616;
+  margin-bottom: 14px;
+  line-height: 1;
+}
+
+.btn-like {
+  padding: 9px 26px;
+  border-radius: 8px;
+  border: none;
+  background-color: #b01616;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.2s, transform 0.15s;
+}
+
+.btn-like:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}

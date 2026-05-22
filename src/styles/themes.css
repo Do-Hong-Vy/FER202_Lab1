@@ -1,0 +1,124 @@
+.light-theme {
+  background-color: #dbe9f7;
+}
+
+.light-theme .btn-darkmode {
+  background-color: #ffffff;
+  border-color: #cbd5e1;
+  color: #000000;
+}
+
+.light-theme .btn-darkmode:hover {
+  background-color: #f1f5f9;
+}
+
+.light-theme .card {
+  background-color: #ffffff;
+}
+
+.light-theme .name {
+  color: #000000;
+}
+
+.light-theme .card-label {
+  color: #06b6d4;
+}
+
+.light-theme .student-id-text {
+  color: #000000;
+}
+
+.light-theme .section-heading {
+  color: #000000;
+}
+
+.light-theme .info-description {
+  color: #0ea5e9;
+}
+
+.light-theme .info-row {
+  color: #000000;
+}
+
+.light-theme .hobby-tag {
+  border-color: #000000;
+  color: #000000;
+  background-color: transparent;
+}
+
+.light-theme .like-section {
+  background-color: #ffffff;
+}
+
+.light-theme .like-label {
+  color: #ffffff;
+}
+
+
+.dark-theme {
+  background-color: #0f172a;
+}
+
+.dark-theme .btn-darkmode {
+  background-color: #1e293b;
+  border-color: #334155;
+  color: #ffffff;
+}
+
+.dark-theme .btn-darkmode:hover {
+  background-color: #273549;
+}
+
+.dark-theme .card {
+  background-color: #1e293b;
+}
+
+.dark-theme .name {
+  color: #f1f5f9;
+}
+
+.dark-theme .card-label {
+  color: #38bdf8;
+}
+
+.dark-theme .student-id-text {
+  color: #ffffff;
+}
+
+.dark-theme .section-heading {
+  color: #f1f5f9;
+}
+
+.dark-theme .info-description {
+  color: #38bdf8;
+}
+
+.dark-theme .info-row {
+  color: #e2e8f0;
+}
+
+.dark-theme .hobby-tag {
+  border-color: #334155;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.dark-theme .status-box.status-online {
+  background-color: rgba(34, 197, 94, 0.1);
+  border-color: rgba(34, 197, 94, 0.35);
+  color: #86efac;
+}
+
+.dark-theme .status-box.status-offline {
+  background-color: #0f172a;
+  border-color: #334155;
+  color: #94a3b8;
+}
+
+.dark-theme .like-section {
+  background-color: #0f172a;
+}
+
+.dark-theme .like-label {
+  color: #e1e1e1;
+}
